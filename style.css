@@ -1,0 +1,27 @@
+
+.container{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.box-color{
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: blue;
+    position: relative;
+}
+#change-color-btn{
+    background-color: red;    
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+#change-color-btn:hover{
+    background-color: rgb(64, 0, 255);
+}
